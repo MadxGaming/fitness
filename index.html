@@ -1,86 +1,225 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=d1e9350b7157bac0f3ba15ea82c4d979">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<body>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" id="brand" href="#">Madx Gaming</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Feedback</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Start: Simple Slider -->
+    <div class="simple-slider">
+        <!-- Start: Slideshow -->
+        <div class="swiper-container">
+            <!-- Start: Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- End: Pagination -->
+            <!-- Start: Previous -->
+            <div class="swiper-button-prev"></div>
+            <!-- End: Previous -->
+            <!-- Start: Next -->
+            <div class="swiper-button-next"></div>
+            <!-- End: Next -->
+        </div>
+        <!-- End: Slideshow -->
+    </div>
+    <!-- End: Simple Slider -->
+    <!-- Start: Registration Form with Photo -->
+    <div class="register-photo">
+        <!-- Start: Form Container -->
+        <div class="form-container">
+            <!-- Start: Image -->
+            <div class="image-holder"></div>
+            <!-- End: Image -->
+            <form method="post">
+                <h2 class="text-center"><strong>Create</strong> an account.</h2>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)"></div>
+                <div class="form-group">
+                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
+                </div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Sign Up</button></div><a class="already" href="#">You already have an account? Login here.</a></form>
+        </div>
+        <!-- End: Form Container -->
+    </div>
+    <!-- End: Registration Form with Photo -->
+    <!-- Start: Brands -->
+    <div class="brands"><a href="#"> <img src="/assets/img/instacart.png?h=8dfb9b4ee759f86daaa7038b830ae11a"><img src="/assets/img/kickstarter.png?h=a323344128ee4bb836cd80898cf645a6"><img src="/assets/img/lyft.png?h=70b36c1c8d28d75d15ae952bd4dabe56"><img src="/assets/img/shopify.png?h=5f4bf5d8f7e814412c7e53c4a005709f"><img src="/assets/img/pinterest.png?h=73043ad9cf78e5351630c7140959960e"><img src="/assets/img/twitter.png?h=6577bfd02c0c3dd36230631c1775a491"></a></div>
+    <!-- End: Brands -->
+    <!-- Start: Lightbox Gallery -->
+    <div class="photo-gallery">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Lightbox Gallery</h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Photos -->
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="/assets/img/desk.jpg?h=59814d7d945b69b0e72406569bae7991"><img class="img-fluid" src="/assets/img/desk.jpg?h=59814d7d945b69b0e72406569bae7991"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="/assets/img/building.jpg?h=94ea0fee9f0fa5266b037102a3f458ff"><img class="img-fluid" src="/assets/img/building.jpg?h=94ea0fee9f0fa5266b037102a3f458ff"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="/assets/img/loft.jpg?h=a4b60c5366c2db49bfaf093196360960"><img class="img-fluid" src="/assets/img/loft.jpg?h=a4b60c5366c2db49bfaf093196360960"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="/assets/img/building.jpg?h=94ea0fee9f0fa5266b037102a3f458ff"><img class="img-fluid" src="/assets/img/building.jpg?h=94ea0fee9f0fa5266b037102a3f458ff"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="/assets/img/loft.jpg?h=a4b60c5366c2db49bfaf093196360960"><img class="img-fluid" src="/assets/img/loft.jpg?h=a4b60c5366c2db49bfaf093196360960"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="/assets/img/desk.jpg?h=59814d7d945b69b0e72406569bae7991"><img class="img-fluid" src="/assets/img/desk.jpg?h=59814d7d945b69b0e72406569bae7991"></a></div>
+            </div>
+            <!-- End: Photos -->
+        </div>
+    </div>
+    <!-- End: Lightbox Gallery -->
+    <!-- Start: Team Boxed -->
+    <div class="team-boxed">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Team </h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: People -->
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="/assets/img/1.jpg?h=68f583b665c9861f71185466fb04c819">
+                        <h3 class="name">Ben Johnson</h3>
+                        <p class="title">Musician</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="/assets/img/2.jpg?h=6502379c24366f7175d365c7685f5e16">
+                        <h3 class="name">Emily Clark</h3>
+                        <p class="title">Artist</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="/assets/img/3.jpg?h=db027521900dbe3be422d924d2433888">
+                        <h3 class="name">Carl Kent</h3>
+                        <p class="title">Stylist</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <nav>
+                        <ul class="pagination"></ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- End: People -->
+        </div>
+    </div>
+    <!-- End: Team Boxed -->
+    <!-- Start: Features Blue -->
+    <div class="features-blue">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Features</h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Features -->
+            <div class="row features">
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-map-marker icon"></i>
+                    <h3 class="name">Works everywhere</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-clock-o icon"></i>
+                    <h3 class="name">Always available</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-list-alt icon"></i>
+                    <h3 class="name">Customizable</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-leaf icon"></i>
+                    <h3 class="name">Organic</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-plane icon"></i>
+                    <h3 class="name">Fast</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-phone icon"></i>
+                    <h3 class="name">Mobile-first</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                </div>
+            </div>
+            <!-- End: Features -->
+        </div>
+    </div>
+    <!-- End: Features Blue -->
+    <!-- Start: Footer Dark -->
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <!-- Start: Services -->
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <!-- End: Services -->
+                    <!-- Start: About -->
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <!-- End: About -->
+                    <!-- Start: Footer Text -->
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <!-- End: Footer Text -->
+                    <!-- Start: Social Icons -->
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-yen"></i></a></div>
+                    <!-- End: Social Icons -->
+                </div>
+                <!-- Start: Copyright -->
+                <p class="copyright">Company Name © 2017</p>
+                <!-- End: Copyright -->
+            </div>
+        </footer>
+    </div>
+    <!-- End: Footer Dark -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="/assets/js/script.min.js?h=b1342a01b7d7006769f48460d915530f"></script>
+</body>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    
-
-  	<style type="text/css">
-
-  		section{
-  			width: 100vw;
-  			height: 100vh;
-  			background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(laptop.jpg);
-  			background-position: center;
-  			background-repeat: no-repeat;
-  			
-  		}
-  		a{
-  			color: white;
-  		}
-  		span{
-  			letter-spacing: 0.3rem;
-  		}
-  		/*.d-flex{
-  			background-color: red;
-  		}*/
-  	</style>
-
-
-  	<section>
-
-
-  		<div class="container">
-  			<nav class="navbar navbar-expand-lg">
-  		
-  <a class="navbar-brand font-weight-bold" href="#"><img src="brand.png" width="100"><span class="">Fitness</span></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <img src="nav-icon.png" width="50" class="navbar-toggler-icon">
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active p-4">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item p-4">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item p-4">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      
-    </ul>
-  </div>
-</nav>
-  		</div>
-
-
-  		<div class="container d-flex text-light flex-column" style="padding: 7rem 0 0 2rem;">
-  			
-  			<h2>Welcome </h2>
-  			<h1 style="color: #FFB900; font-size: 4rem;" class="" >Fitness Academy</h1>
-  			Dummy text is text that is used in the publishing industry or by web designers
-
-  			<button style="background-color: #FFB900; color: gray;" class="btn col-lg-2 col-md-3 col-sm-3 col-3 mt-5" >Register</button>
-
-
-  		</div>
-  		
-  	</section>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
 </html>
