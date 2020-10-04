@@ -7,12 +7,13 @@ section{
 	width: 100%;
 	height: 100vh;
 	background:linear-gradient(120deg,#DEC221 , #E4CE4E) ;
+	position: relative;
 }
 
 
 .navbar-brand{
 	font-family: 'Sansita Swashed', cursive;
-	color: #8535CA !important;
+	color: white !important;
 	
 	font-weight: bold;
 	font-size: 2rem !important;
@@ -32,7 +33,7 @@ section{
 
 }
 .main-color{
-	color: #8535CA;
+	color: white;
 	font-weight: bold;
 	font-size: 4rem;
 }
@@ -45,15 +46,25 @@ section{
 	cursor: pointer;
 }
 
+
+
 svg{
 	position: absolute;
 	bottom: 0;
+
 	left: 0;
 	z-index: 1;
 }
-.img{
+.image{
 	z-index: 1111 !important; 
 }
+
+@media (max-width: 991px){
+	.image{
+		display: none !important;
+	}
+}
+
 
 @media (max-width: 500px){
 	.main-color{
